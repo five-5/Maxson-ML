@@ -4,9 +4,11 @@
 ___
 
 这是Maxson系统中的JSONPath预测器部分的实现代码。代码部分使用了中文注释，关于json配置文件的各项说明见 *configuration.md*。
-
-![图1 JSONPath Predictor概览](img/JSONPathPredictor.png "JSONPath Predictor概览")
-![图2 Maxson-ML运行流程图](img/Maxson-ML运行流程图.png "图2 Maxson-ML运行流程图")
+**JSONPath Predictor概览图：**
+<div align=center>![图1 JSONPath Predictor概览](img/JSONPathPredictor.png "图1 JSONPath Predictor概览")
+  
+**Maxson-ML运行流程图：**  
+<div align=center>![图2 Maxson-ML运行流程图](img/Maxson-ML运行流程图.png "图2 Maxson-ML运行流程图")
 
 
 - **目录介绍**
