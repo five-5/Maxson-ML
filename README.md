@@ -8,9 +8,11 @@ ___
 <img src="img\JSONPathPredictor.png" width=50% height=50% div align=center>
 
 <center> 图1 JSONPath Predictor概览 </center>
+
 <img src="img\Maxson-ML运行流程图.png" width=50% height=50% div align=center>
 
 <center> 图2 Maxson-ML运行流程图 </center>
+
 - **目录介绍**
   - `data` ：数据集文件夹， *full_set_group_json.txt* 是训练时所用的数据集。*predict.txt* *train.txt* 预测及训练数据集，*14_feature_xx.txt* 根据数据集构造特征生成文件，作为模型输入。*prediction*文件夹下为预测数据，其格式为：`JSONPath^^次数^^时间`。
   - `model` ：训练生成模型文件夹。
