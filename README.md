@@ -7,10 +7,12 @@ ___
 
 
 **JSONPath Predictor概览图：**
-<div align=center>![图1 JSONPath Predictor概览](img/JSONPathPredictor.png "图1 JSONPath Predictor概览")
+<div align=center>![图1 JSONPath Predictor概览](img/JSONPathPredictor.png)
   
+
+
 **Maxson-ML运行流程图：**  
-<div align=center>![图2 Maxson-ML运行流程图](img/Maxson-ML运行流程图.png "图2 Maxson-ML运行流程图")
+<div align=center>![图2 Maxson-ML运行流程图](img/Maxson-ML运行流程图.png)
 
 
 - **目录介绍**
