@@ -1,0 +1,43 @@
+{
+    "data": {
+      "trainName": "data/14_feature_train.txt",
+      "predictName": "data/14_feature_predict.txt",
+      "separator": "^^",
+      "columnNum": 3,
+      "nonSeqFeatureSize": 53,
+      "group": "jsonPath",
+      "timeColumn": "timestamp",
+      "countColumn": "occurNum",
+      "columns": [
+          "jsonPath",
+          "occurNum",
+          "timestamp"
+      ],
+      "windowSize": 14,
+      "windowsNum": 50,
+      "tagsetSize": 4
+  },
+  "training": {
+		"epoch": 2,
+		"batchSize": 100,
+        "shuffle": true,
+        "learningRate": 0.001
+  },
+  "model": {
+    "lstm_crf": {
+      "inputSize": 81,
+      "hiddenSize": 20,
+      "numLayers": 2,
+      "batchFirst": true,
+      "dropout": 0.5
+    },
+    "linear1": {
+      "inFeatures": 20,
+      "outFeatures": 4
+    },
+    "saveName": "model/lstmcrf_14.pt"
+  },
+  "prediction": {
+      "output": "data/prediction/predict_result_lstmcrf_14.txt"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "data": {
+      "separator": "^^",
+      "columnNum": 3,
+      "group": "jsonPath",
+      "timeColumn": "timestamp",
+      "countColumn": "occurNum",
+      "columns": [
+          "jsonPath",
+          "occurNum",
+          "timestamp"
+      ],
+      "vecModel": "wordModel_50_4.model",
+      "windowSize": 14
+  }
+}
